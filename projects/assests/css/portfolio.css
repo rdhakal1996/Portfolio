@@ -1,0 +1,1287 @@
+body {
+    background-color: #313133;
+    min-width: 100%;
+    min-height: 100%;
+    font-family: avenir, 'Roboto', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+p,
+ul,
+li {
+    font-size: 14px;
+    color: darkgray;
+    font-family: avenir, 'Roboto', sans-serif;
+}
+
+h4 {
+    font-size: 10px;
+    color: darkgray;
+}
+
+.icon {
+    font-size: 180px;
+    color: #231f22;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icon3 {
+    font-size: 100px;
+    color: #231f22;
+    text-align: center;
+}
+
+.icon4 {
+    font-size: 180px;
+    color: #231f22;
+    text-align: center;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.main {
+    max-width: 1100px;
+    margin: auto;
+    background: #313133;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: #2E2D33;
+    padding: 10px 100px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 5px 5px #000; */
+}
+
+.flex-topbox {
+    display: flex;
+    border: 1px solid grey;
+    border-top: none;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.flex-mainlogo {
+    width: 10%;
+    border-right: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+}
+
+.flex-letter {
+    color: #2EFCD8;
+    font-size: 50px;
+    text-shadow: 2px 2px #F91657;
+}
+
+.flex-logoname {
+    color: white;
+    font-size: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+.flex-infobox {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.flex-mapfb {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.flex-map {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-weight: 100;
+    padding-right: 15px;
+}
+
+.flex-socialmedia {
+    width: 20%;
+    font-size: 14px;
+    word-spacing: 20px;
+    padding: 8px;
+    text-align: center;
+}
+
+.flex-allnevicon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.colorforname {
+    color: #E1236E;
+}
+
+.flex-allnevicon>div {
+    width: 18%;
+    text-align: center;
+}
+
+.same {
+    text-decoration: none;
+    color: grey;
+    /* width       : 13%; */
+}
+
+.flex-box>.flex-box2>.aboutme {
+    position: absolute;
+    top: -10px;
+    left: 150px;
+    border: none;
+    margin: auto;
+    text-align: center;
+    /* padding-left : 160px; */
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 0px 10px;
+    background-color: #2e2d33;
+}
+
+.skillset {
+    position: absolute;
+    top: -7px;
+    left: 430px;
+    border: none;
+    margin: auto;
+    text-align: center;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 0px 10px;
+    background-color: #2e2d33;
+}
+
+.flex-box {
+    display: flex;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.flex-box1 {
+    border-right: 1px solid grey;
+    width: 25%;
+}
+
+.flex-box2 {
+    border-right: 1px solid grey;
+    width: 50%;
+    position: relative;
+}
+
+.flex-box3 {
+    width: 25%;
+}
+
+.flex-onethird {
+    width: 33.33%;
+    border-right: 1px solid grey;
+}
+
+.flex-onethird>.forskillset {
+    position: relative;
+}
+
+.flex-boxskill {
+    display: flex;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-bottom: 50px;
+    width: 100%;
+    /* height    : 100%; */
+}
+
+.flex-onethirdskill {
+    width: 33.33%;
+    border-right: 1px solid grey;
+    padding: 15px;
+}
+
+.skillpic {
+    width: 100%;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+}
+
+.flex-skilldescription {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.description {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.skillicon {
+    width: 100%;
+    word-spacing: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.flex-boxskill>.flex-onethirdskill:last-child {
+    border: none;
+}
+
+.nepflick {
+    padding: 15px 10px 10px 20px;
+    width: 90%;
+    justify-content: center;
+}
+
+.one-half {
+    width: 50%;
+    border-right: 1px solid grey;
+    position: relative;
+    padding: 30px;
+}
+
+.myproject {
+    position: absolute;
+    top: -16px;
+    left: 200px;
+    background-color: #2d2d33;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 5px;
+}
+
+.flex-splitrow {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.flex-splitrow>.flex-box2 {
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    /* height     : 250px; */
+    position: relative;
+    /* padding    : 15px; */
+    text-align: center;
+    padding-bottom: 30px;
+    height: auto;
+}
+
+img {
+    /* width: 100%; */
+    width: 300px;
+    height: 300px;
+    /* position: absolute; */
+    /* z-index : -1; */
+}
+
+.prefered {
+    visibility: hidden;
+}
+
+.flex-splitrow>.flex-box2:hover>.prefered {
+    visibility: visible;
+}
+
+.flex-splitrow>.flex-box3 {
+    width: 100%;
+}
+
+.flex-subscribe {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#fname {
+    width: 25%;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: #2E2D33;
+    font-size: 13px;
+    font-family: tgl;
+    letter-spacing: 1px;
+    color: darkgray;
+}
+
+#email {
+    width: 25%;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: #2E2D33;
+    font-size: 13px;
+    font-family: tgl;
+    letter-spacing: 1px;
+    color: darkgray;
+}
+
+#number {
+    width: 25%;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: #2E2D33;
+    font-size: 13px;
+    font-family: tgl;
+    letter-spacing: 1px;
+    color: darkgray;
+}
+
+#message {
+    width: 81%;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: #2E2D33;
+    font-size: 13px;
+    font-family: tgl;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    color: darkgray;
+}
+
+.sign {
+    text-align: center;
+}
+
+.flex-submit {
+    width: 75px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #A74A3B;
+    background-color: #2E2D33;
+    color: darkgray;
+    font-size: 13px;
+    font-family: tgl;
+    letter-spacing: 1px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-left: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+a {
+    color: slategrey;
+    text-decoration: none;
+}
+
+.flex-bigbox {
+    display: flex;
+    border-top: 1px solid grey;
+}
+
+.flex-bigbox>.flex-onethird:last-child {
+    border: none;
+}
+
+.flex-lastbox1 {
+    display: flex;
+    width: 50%;
+    border-right: 1px solid grey;
+}
+
+.flex-lastbox2 {
+    width: 35%;
+    border-right: 1px solid grey;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.flex-lastbox3 {
+    width: 15%;
+    word-spacing: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.p2 {
+    padding: 2px;
+}
+
+.flex-fun {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.flex-x {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.flex-y {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+@media only screen and (max-width: 1100px) {
+    h1 {
+        font-size: 50px;
+        font-weight: 600px;
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+    h2 {
+        font-size: 50px;
+        font-weight: 600px;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    p {
+        font-size: 14px;
+        color: darkgray;
+        font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    h4 {
+        font-size: 10px;
+        color: darkgray;
+    }
+    .icon {
+        font-size: 100px;
+        color: #231f22;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .icon3 {
+        font-size: 100px;
+        color: #231f22;
+        text-align: center;
+    }
+    .icon4 {
+        font-size: 100px;
+        color: #231f22;
+        text-align: center;
+    }
+    .p-20 {
+        padding: 20px;
+    }
+    .main {
+        max-width: 1100px;
+        margin: auto;
+        background: #313133;
+        padding: 20px;
+    }
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        background: #2E2D33;
+        padding: 10px 60px;
+    }
+    .flex-topbox {
+        display: flex;
+        border: 1px solid grey;
+        border-top: none;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .flex-mainlogo {
+        width: 10%;
+        border-right: 1px solid grey;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-decoration: none;
+    }
+    .flex-letter {
+        color: #2EFCD8;
+        font-size: 50px;
+        text-shadow: 2px 2px #F91657;
+    }
+    .flex-logoname {
+        color: white;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .flex-infobox {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .flex-mapfb {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        border-bottom: 1px solid grey;
+    }
+    .flex-map {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        font-weight: 100;
+        padding-right: 15px;
+    }
+    .flex-socialmedia {
+        font-size: 14px;
+        word-spacing: 16px;
+        padding: 8px;
+        width: 17%;
+    }
+    .flex-allnevicon {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .colorforname {
+        color: #E1236E;
+    }
+    .flex-allnevicon>div {
+        width: 18%;
+        text-align: center;
+    }
+    .same {
+        text-decoration: none;
+        color: grey;
+        /* width       : 13%; */
+    }
+    .flex-box>.flex-box2>.aboutme {
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translate(-50%);
+        border: none;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        /* padding-left : 160px; */
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+        padding: 0px 10px;
+        background-color: #2e2d33;
+    }
+    .skillset {
+        position: absolute;
+        top: -7px;
+        left: 430px;
+        border: none;
+        margin: auto;
+        text-align: center;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+        padding: 0px 10px;
+        background-color: #2e2d33;
+    }
+    .flex-box {
+        display: flex;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .flex-box1 {
+        border-right: 1px solid grey;
+        width: 25%;
+    }
+    .flex-box2 {
+        border-right: 1px solid grey;
+        width: 50%;
+        position: relative;
+    }
+    .flex-box3 {
+        width: 25%;
+    }
+    .flex-onethird {
+        width: 33.33%;
+        border-right: 1px solid grey;
+    }
+    .flex-onethird>.forskillset {
+        position: relative;
+    }
+    .flex-boxskill {
+        display: flex;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        margin-bottom: 50px;
+        width: 100%;
+        /* height    : 100%; */
+    }
+    .flex-onethirdskill {
+        width: 33.33%;
+        border-right: 1px solid grey;
+        padding: 15px;
+    }
+    .skillpic {
+        width: 100%;
+        height: 170px;
+        background-repeat: no-repeat;
+        background-size: 100px 100px;
+        background-position: center;
+    }
+    .flex-skilldescription {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .header {
+        font-size: 20px;
+        font-weight: 600px;
+    }
+    .description {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .skillicon {
+        width: 100%;
+        word-spacing: 30px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .flex-boxskill>.flex-onethirdskill:last-child {
+        border: none;
+    }
+    .nepflick {
+        padding: 15px 10px 10px 20px;
+        width: 90%;
+        justify-content: center;
+    }
+    .one-half {
+        width: 50%;
+        border-right: 1px solid grey;
+        position: relative;
+        padding: 30px;
+    }
+    .myproject {
+        position: absolute;
+        top: -16px;
+        left: 200px;
+        background-color: #2d2d33;
+        border-right: 1px solid gray;
+        border-left: 1px solid gray;
+        padding: 5px;
+    }
+    .flex-splitrow {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .flex-splitrow>.flex-box2 {
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid grey;
+        /* height     : 250px; */
+        position: relative;
+        /* padding    : 15px; */
+        text-align: center;
+        padding-bottom: 40px;
+        height: auto;
+    }
+    img {
+        /* width: 100%; */
+        width: 300px;
+        height: 300px;
+        /* position: absolute; */
+        /* z-index : -1; */
+    }
+    .flex-splitrow>.flex-box3 {
+        width: 100%;
+    }
+    .flex-subscribe {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #fname {
+        width: 25%;
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid gray;
+        background-color: #2E2D33;
+        font-size: 13px;
+        font-family: tgl;
+        letter-spacing: 1px;
+        color: darkgray;
+    }
+    #email {
+        width: 25%;
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid gray;
+        background-color: #2E2D33;
+        font-size: 13px;
+        font-family: tgl;
+        letter-spacing: 1px;
+        color: darkgray;
+    }
+    #number {
+        width: 25%;
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid gray;
+        background-color: #2E2D33;
+        font-size: 13px;
+        font-family: tgl;
+        letter-spacing: 1px;
+        color: darkgray;
+    }
+    #message {
+        width: 81%;
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid gray;
+        background-color: #2E2D33;
+        font-size: 13px;
+        font-family: tgl;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        color: darkgray;
+    }
+    .sign {
+        text-align: center;
+    }
+    .flex-submit {
+        width: 75px;
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid #A74A3B;
+        background-color: #2E2D33;
+        color: darkgray;
+        font-size: 13px;
+        font-family: tgl;
+        letter-spacing: 1px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 16px;
+        padding-left: 10px;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+    .flex-bigbox {
+        display: flex;
+        border-top: 1px solid grey;
+    }
+    .flex-bigbox>.flex-onethird:last-child {
+        border: none;
+    }
+    .flex-lastbox1 {
+        display: flex;
+        width: 50%;
+        border-right: 1px solid grey;
+    }
+    .flex-lastbox2 {
+        width: 35%;
+        border-right: 1px solid grey;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .flex-lastbox3 {
+        width: 15%;
+        word-spacing: 20px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .p2 {
+        padding: 2px;
+    }
+    .flex-fun {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .flex-x {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 50%;
+    }
+    .flex-y {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+    h2 {
+        font-size: 50px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    p {
+        font-size: 14px;
+        color: darkgray;
+        font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    ul,
+    li {
+        font-size: 14px;
+        color: darkgray;
+        font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .flex-splitrow>.flex-box3>ol {
+        list-style-position: inside;
+    }
+    h4 {
+        font-size: 10px;
+        color: darkgray;
+    }
+    .icon {
+        font-size: 60px;
+        color: #231f22;
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+    .icon3 {
+        font-size: 150px;
+        color: #231f22;
+        text-align: center;
+    }
+    .icon4 {
+        font-size: 60px;
+        color: #231f22;
+        text-align: center;
+    }
+    .p-20 {
+        padding: 10px;
+    }
+    .main {
+        max-width: 420px;
+        margin: auto;
+        background: #313133;
+        padding: 1px;
+    }
+    .container {
+        max-width: 420px;
+        margin: auto;
+        background: #2E2D33;
+        padding: 10px 10px;
+    }
+    .flex-topbox {
+        display: block;
+        position: relative;
+        margin-bottom: 50px;
+        border: none;
+    }
+    .flex-mainlogo {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+    .flex-letter {
+        display: block;
+        color: #2EFCD8;
+        font-size: 150px;
+        text-shadow: 2px 2px #F91657;
+    }
+    .flex-logoname {
+        display: none;
+        color: white;
+        font-size: 20px;
+    }
+    .flex-infobox {
+        display: block;
+        flex-direction: column;
+        width: 100%;
+    }
+    .flex-mapfb {
+        display: none;
+        flex-direction: row;
+        width: 100%;
+    }
+    .flex-map {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        text-align: right;
+        font-weight: 100;
+        padding-right: 15px;
+        border: none;
+    }
+    .flex-socialmedia {
+        width: 100%;
+        display: block;
+        font-size: 14px;
+        word-spacing: 16px;
+        padding: 8px;
+        text-align: right;
+    }
+    .flex-allnevicon {
+        display: none;
+        flex-direction: row;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .colorforname {
+        color: #E1236E;
+    }
+    .flex-allnevicon>div {
+        text-align: center;
+    }
+    .same {
+        text-decoration: none;
+        color: grey;
+        /* width       : 13%; */
+    }
+    .flex-box>.flex-box2>.aboutme {
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translate(-50%);
+        border: none;
+        margin: auto;
+        text-align: center;
+        /* padding-left : 160px; */
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+        padding: 0px 10px;
+        background-color: #2e2d33;
+    }
+    .skillset {
+        position: absolute;
+        top: -7px;
+        left: 430px;
+        border: none;
+        margin: auto;
+        text-align: center;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+        padding: 0px 10px;
+        background-color: #2e2d33;
+    }
+    .flex-box {
+        display: block;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .flex-box1 {
+        border-right: 1px solid grey;
+        width: 25%;
+    }
+    .flex-box2 {
+        display: block;
+        border: none;
+        width: 100%;
+        position: relative;
+    }
+    .flex-box3 {
+        width: 25%;
+    }
+    .flex-onethird {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+    .flex-onethird>.forskillset {
+        position: relative;
+    }
+    .flex-boxskill {
+        display: flex;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        border-left: 1px solid grey;
+        margin-bottom: 50px;
+        width: 100%;
+        /* height    : 100%; */
+    }
+    .flex-onethirdskill {
+        width: 50%;
+        border-right: 1px solid grey;
+        padding: 15px;
+    }
+    .flex-boxskill>.flex-onethirdskill:last-child {
+        display: none;
+        width: 33.33%;
+        border-right: 1px solid grey;
+        padding: 15px;
+    }
+    .skillpic {
+        width: 100%;
+        height: 170px;
+        background-repeat: no-repeat;
+        background-size: 100px 100px;
+        background-position: center;
+    }
+    .flex-skilldescription {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .header {
+        font-size: 20px;
+        font-weight: 600px;
+    }
+    .description {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .skillicon {
+        width: 100%;
+        word-spacing: 10px;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .flex-boxskill>.flex-onethirdskill:last-child {
+        border: none;
+    }
+    .nepflick {
+        padding: 15px 10px 10px 20px;
+        width: 90%;
+        justify-content: center;
+    }
+    .one-half {
+        width: 100%;
+        position: relative;
+        padding: 10px;
+        border: none;
+    }
+    .myproject {
+        position: absolute;
+        top: -16px;
+        left: 200px;
+        background-color: #2d2d33;
+        border-right: 1px solid gray;
+        border-left: 1px solid gray;
+        padding: 5px;
+    }
+    .flex-splitrow {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .flex-splitrow>.flex-box2 {
+        border: none;
+        width: 100%;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        /* height     : 250px; */
+        position: relative;
+        /* padding    : 15px; */
+        text-align: center;
+        padding-bottom: 40px;
+        height: auto;
+    }
+    img {
+        /* width: 100%; */
+        width: 300px;
+        height: 300px;
+        /* position: absolute; */
+        /* z-index : -1; */
+    }
+    .flex-splitrow>.flex-box3 {
+        width: 100%;
+        text-align: center;
+    }
+    .flex-subscribe {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #fname {
+        width: 28%;
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid gray;
+        background-color: #2E2D33;
+        font-size: 13px;
+        font-family: tgl;
+        letter-spacing: 1px;
+        color: darkgray;
+    }
+    #email {
+        width: 28%;
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid gray;
+        background-color: #2E2D33;
+        font-size: 13px;
+        font-family: tgl;
+        letter-spacing: 1px;
+        color: darkgray;
+    }
+    #number {
+        width: 28%;
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid gray;
+        background-color: #2E2D33;
+        font-size: 13px;
+        font-family: tgl;
+        letter-spacing: 1px;
+        color: darkgray;
+    }
+    #message {
+        width: 100%;
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid gray;
+        background-color: #2E2D33;
+        font-size: 13px;
+        font-family: tgl;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        color: darkgray;
+    }
+    .sign {
+        text-align: center;
+    }
+    .flex-submit {
+        width: 75px;
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid #A74A3B;
+        background-color: #2E2D33;
+        color: darkgray;
+        font-size: 13px;
+        font-family: tgl;
+        letter-spacing: 1px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 16px;
+        padding-left: 10px;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+    .flex-bigbox {
+        display: block;
+        border-top: 1px solid grey;
+    }
+    .flex-bigbox>.flex-onethird:last-child {
+        border: none;
+    }
+    .flex-lastbox1 {
+        display: block;
+        width: 50%;
+        border: none;
+    }
+    .flex-lastbox2 {
+        display: none;
+        width: 50%;
+        border: none;
+        padding-top: 10px;
+        padding-right: 15px;
+        text-align: right;
+    }
+    .flex-lastbox3 {
+        display: block;
+        width: 100%;
+        word-spacing: 15px;
+        padding-left: 2px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .p2 {
+        padding: 2px;
+    }
+    .flex-fun {
+        display: block;
+        flex-direction: row;
+        width: 100%;
+    }
+    .flex-x {
+        display: block;
+        text-align: left;
+        width: 50%;
+    }
+    .flex-y {
+        display: none;
+        text-align: right;
+        width: 50%;
+    }
+}
